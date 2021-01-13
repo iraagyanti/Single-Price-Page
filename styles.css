@@ -83,16 +83,21 @@ h3 {
 }
 
 @media screen and (max-width: 500px) and (min-width: 300px) {
-    h3 {
-        font-size: 20px;
-    }
-    /* Offering Message Box Section */
-    .offer-guarantee, .offer-perks {
-        font-size: 13px;
+    /* Main Content Box */
+    .content-box {
+        padding: 5% 20% 3%;
     }
 
+/*     h3 {
+        font-size: 20px;
+    } */
+    /* Offering Message Box Section */
+/*     .offer-guarantee, .offer-perks {
+        font-size: 13px;
+    } */
+
     /* Pricing Box Section */
-    .pricing-title {
+/*     .pricing-title {
         font-size: 16px;
     }
     .price {
@@ -100,11 +105,11 @@ h3 {
     }
     .price-message {
         font-size: 13px;
-    } 
+    }  */
 
     /* Perks Box Section */
-    .perks p {
-        font-size: 13px;
+/*     .perks p {
+        font-size: 13px; */
     }
     /* Footer Section */
     .copyright {
