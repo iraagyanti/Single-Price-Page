@@ -85,7 +85,7 @@ h3 {
 @media screen and (max-width: 500px) and (min-width: 300px) {
     /* Main Content Box */
     .content-box {
-        padding: 5% 18% 3%;
+        padding: 5% 15% 3%;
     }
 
 /*     h3 {
