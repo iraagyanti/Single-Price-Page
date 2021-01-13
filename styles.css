@@ -85,26 +85,14 @@ h3 {
 @media screen and (max-width: 500px) and (min-width: 300px) {
     /* Main Content Box */
     .content-box {
-        padding: 5% 15% 3%;
+        padding: 5% 13% 3%;
     }
-
-/*     h3 {
-        font-size: 20px;
-    } */
-    /* Offering Message Box Section */
-/*     .offer-guarantee, .offer-perks {
-        font-size: 13px;
-    } */
 
     /* Pricing Box Section */
     .price-message {
         font-size: 14px;
     } 
 
-    /* Perks Box Section */
-/*     .perks p {
-        font-size: 13px; */
-    }
     /* Footer Section */
     .copyright {
         font-size: 13px;
