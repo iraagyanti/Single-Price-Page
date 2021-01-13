@@ -1,0 +1,114 @@
+body {
+    background-color: hsl(204, 43%, 93%);
+    font-family: "Karla";
+}
+h3 {
+    color: hsl(179, 62%, 43%);
+    font-weight: 700;
+    margin-bottom: 3%;
+}
+
+/* Main Content Box */
+.content-box {
+    padding: 5% 28% 3%;
+}
+
+/* Offering Message Box Section */
+.offering-message {
+    background-color: #fff;
+    color: hsl(218, 22%, 67%);
+    padding: 5% 7%;
+}
+.offer-guarantee {
+    color: hsl(71, 73%, 54%);
+    font-weight: 700;
+    margin-bottom: 1%;
+}
+.offer-perks {
+    margin: 0;
+}
+
+/* Pricing Box Section */
+.pricing {
+    background-color: hsl(179, 62%, 43%);
+    color: #fff;
+    padding: 5% 0 5% 7%;
+}
+.pricing-title {
+    font-size: 18px;
+    margin-bottom: 1rem;
+}
+.price {
+    font-size: 2rem;
+    color: #fff;
+    margin-right: 5%;
+}
+.pricing-offer {
+    color: hsla(203, 44%, 93%, 0.486);
+    display: flex;
+    align-items: center;
+    margin: 0;
+}
+.price-message {
+    color: hsl(204, 43%, 93%);
+    font-size: 15px;
+    margin-bottom: 2rem;
+}
+.btn {
+    background-color: hsl(71, 73%, 54%);
+    box-shadow: 2px 4px 15px hsl(217, 7%, 49%);
+    color: #fff;
+    padding: 4% 32%;
+}
+
+/* Perks Box Section */
+.perks {
+    background-color: hsla(179, 62%, 43%, 0.678);
+    color: hsl(204, 43%, 93%);
+    padding: 5% 0 5% 7%;
+    line-height: 0.6;
+}
+.perks-title {
+    margin-bottom: 1.5rem;
+    color: #fff;
+}
+.perks p {
+    font-size: 14px;
+}
+
+/* Footer Section */
+.copyright {
+    font-size: 15px;
+    text-align: center;
+}
+
+@media screen and (max-width: 500px) and (min-width: 300px) {
+    h3 {
+        font-size: 20px;
+    }
+    /* Offering Message Box Section */
+    .offer-guarantee, .offer-perks {
+        font-size: 13px;
+    }
+
+    /* Pricing Box Section */
+    .pricing-title {
+        font-size: 16px;
+    }
+    .price {
+        font-size: 1.5rem;
+    }
+    .price-message {
+        font-size: 13px;
+    } 
+
+    /* Perks Box Section */
+    .perks p {
+        font-size: 13px;
+    }
+    /* Footer Section */
+    .copyright {
+        font-size: 13px;
+    }
+
+}
