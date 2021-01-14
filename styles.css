@@ -85,13 +85,8 @@ h3 {
 @media screen and (max-width: 500px) and (min-width: 300px) {
     /* Main Content Box */
     .content-box {
-        padding: 5% 13% 3%;
+        padding: 5% 15% 3%;
     }
-
-    /* Pricing Box Section */
-    .price-message {
-        font-size: 14px;
-    } 
 
     /* Footer Section */
     .copyright {
